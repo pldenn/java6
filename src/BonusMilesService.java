@@ -1,8 +1,7 @@
 public class BonusMilesService {
-    public int calculate (int amountInKopecks){
+    public int calculate(int cost) {
         int percentInKopecks = 2000;
-        int bonus = amountInKopecks / percentInKopecks;
+        int bonus = cost / percentInKopecks;
         return bonus;
-
     }
 }
